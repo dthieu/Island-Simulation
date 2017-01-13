@@ -566,7 +566,7 @@ function generateHeight(worldWidth, smoothinFactor, boundaryHeight, treeNumber) 
 function wave(worldWidth, worldDepth, count) {
 
     waterPlane.updateMatrix();
-    var waveHeight = 30;
+    var waveHeight = 10;
 
     waterPlane.geometry.verticesNeedUpdate = true;
     waterPlane.geometry.normalsNeedUpdate = true;
